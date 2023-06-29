@@ -23,7 +23,7 @@ public class CardDeliveryTest {
     @Test
     void manualInputTestForm () {
 
-      String fourDaysAgoStr = getFutureDay(20);
+      String fourDaysAgoStr = getFutureDay(4);
 
        open("http://localhost:9999/");
        $("[data-test-id='city'] input").setValue("Казань");
